@@ -1,0 +1,62 @@
+"*":
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "8aa94c83-6aa8-414a-9d13-cdd6e685af6e"
+    general:
+      _analyticsUserId: "5a5c2a63-55ba-415c-954f-438ce2717f46"
+  core:
+    audioBeep: false
+    autoHideMenuBar: true
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "color-picker"
+      "docblockr"
+      "pigments"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  docblockr: {}
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 13
+    invisibles: {}
+    preferredLineLength: 1000
+    showLineNumbers: false
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "133f88e1-5bf9-c0a6-44a1-b82ecaa56391"
+  "highlight-line":
+    enableBackgroundColor: false
+  "highlight-selected": {}
+  "language-babel":
+    transpileOnSave: false
+  linter: {}
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "git-diff": true
+      "highlight-selected": true
+      "minimap-autohide": true
+      selection: true
+  "pretty-json": {}
+  react: {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 6
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 1000
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 1000
+".html.js.text":
+  editor:
+    preferredLineLength: 1000
+".js.jsx.source":
+  editor:
+    preferredLineLength: 1000
