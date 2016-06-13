@@ -1,0 +1,49 @@
+// style the background color of the tree view
+.tree-view {
+    // background-color: whitesmoke;
+}
+
+atom-text-editor {
+    // 背景色
+    background-color: hsl(195, 30%, 15%);
+}
+
+atom-text-editor::shadow {
+    // カーソルの色
+    .cursor {
+        border-color: fadein(cyan, 100%);
+    }
+
+    // スクロールバーを無効
+    .vertical-scrollbar {
+        opacity: 0;
+        width: 0;
+    }
+
+    .gutter .cursor-line {
+        background-color: fade(cyan, 10%);
+    }
+
+    .highlights .highlight-selected .region {
+        border-color: fade(cyan, 20%);
+    }
+
+    .highlights {
+        .selection .region {
+            background: fade(cyan, 20%);
+        }
+        .find-result .region {
+            border: 0;
+            background: fade(cyan, 20%);
+        }
+    }
+}
+
+// 点滅を無効
+atom-text-editor.is-focused::shadow .cursors .cursor {
+    opacity: 1;
+}
+
+atom-text-editor .editor .gutter {
+    display: none;
+}

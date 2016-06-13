@@ -1,0 +1,137 @@
+"*":
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "73026dfd-fdb3-4bdc-a624-12401e9976b0"
+  "autocomplete-plus": {}
+  "block-cursor":
+    "custom-0":
+      blinkOff:
+        backgroundColor:
+          alpha: 0
+          blue: 0
+          green: 0
+          red: 0
+        borderColor:
+          alpha: 1
+          blue: 168
+          green: 181
+          red: 39
+        borderStyle: "i-beam"
+        borderWidth: 1
+      blinkOn:
+        backgroundColor:
+          alpha: 1
+          blue: 57
+          green: 57
+          red: 57
+        borderColor:
+          alpha: 0
+          blue: 0
+          green: 0
+          red: 0
+        borderStyle: "bordered-box"
+        borderWidth: 1
+      cursorLineFix: false
+      pulseDuration: 0
+      scopes: [
+        "*"
+      ]
+      selector: "atom-text-editor"
+    "custom-1":
+      blinkOff:
+        backgroundColor:
+          alpha: 0
+          blue: 0
+          green: 0
+          red: 0
+        borderColor:
+          alpha: 1
+          blue: 168
+          green: 181
+          red: 39
+        borderStyle: "i-beam"
+        borderWidth: 1
+      blinkOn:
+        backgroundColor:
+          alpha: 1
+          blue: 57
+          green: 57
+          red: 57
+        borderColor:
+          alpha: 0
+          blue: 0
+          green: 0
+          red: 0
+        borderStyle: "bordered-box"
+        borderWidth: 1
+      cursorLineFix: false
+      pulseDuration: 0
+      scopes: [
+        "*"
+      ]
+      selector: "atom-text-editor"
+    global:
+      blinkOff:
+        backgroundColor:
+          alpha: 1
+          blue: 144
+          green: 147
+          red: 34
+        borderColor:
+          alpha: 1
+          blue: 168
+          green: 181
+          red: 39
+        borderStyle: "bordered-box"
+      blinkOn:
+        borderStyle: "bordered-box"
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "linter-jshint"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  docblockr: {}
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 15
+    invisibles: {}
+    preferredLineLength: 1000
+    showLineNumbers: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "c2654d30-801b-82d6-df32-b77a6fd3f124"
+  "git-history": {}
+  "highlight-selected": {}
+  "japanese-wrap":
+    characterWidth: {}
+  "language-babel":
+    transpileOnSave: false
+  linter:
+    showErrorPanel: false
+  "linter-jshint": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 4
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 1000
+".js.jsx.source":
+  editor:
+    preferredLineLength: 1000
+    scrollPastEnd: false
+".source.stylus":
+  editor:
+    preferredLineLength: 1000
+".source.vbs":
+  editor:
+    preferredLineLength: 1000
+".text.todo":
+  editor:
+    preferredLineLength: 1000
