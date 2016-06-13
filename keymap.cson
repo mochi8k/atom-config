@@ -1,3 +1,10 @@
+# タブの動きを従来に戻す.
+'body':
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+
 # Your keymap
 #
 # Atom keymaps work similarly to style sheets. Just as style sheets use
@@ -25,9 +32,3 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
-
-'body':
-  'ctrl-tab ^ctrl': 'unset!'
-  'ctrl-tab': 'pane:show-next-item'
-  'ctrl-shift-tab ^ctrl': 'unset!'
-  'ctrl-shift-tab': 'pane:show-previous-item'
