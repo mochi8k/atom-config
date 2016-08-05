@@ -6,6 +6,7 @@
 atom-text-editor {
     // 背景色
     background-color: hsl(200, 40%, 14%);
+    font-family: "Ricty Diminished Discord"
 }
 
 atom-text-editor::shadow {
@@ -37,14 +38,13 @@ atom-text-editor::shadow {
             background: fade(cyan, 20%);
         }
     }
+    // スクロールバーを非表示
+    .gutter {
+      background-color: hsl(200, 40%, 14%);
+    }
 }
 
 // 点滅を無効
 atom-text-editor.is-focused::shadow .cursors .cursor {
     opacity: 1;
-}
-
-// スクロールバーを非表示
-atom-text-editor::shadow .gutter {
-    background-color: hsl(200, 40%, 14%);
 }
