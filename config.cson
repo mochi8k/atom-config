@@ -2,6 +2,10 @@
   "atom-alignment": {}
   "atom-beautify":
     _analyticsUserId: "73026dfd-fdb3-4bdc-a624-12401e9976b0"
+    general:
+      _analyticsUserId: "034bd30d-83f9-4b9b-9107-c92720ab3e45"
+    json:
+      indent_size: 2
   "autocomplete-plus": {}
   "block-cursor":
     "custom-0":
@@ -89,6 +93,7 @@
     audioBeep: false
     disabledPackages: [
       "linter-jshint"
+      "gofmt"
     ]
     themes: [
       "atom-dark-ui"
@@ -97,14 +102,16 @@
   docblockr: {}
   editor:
     autoIndentOnPaste: false
-    fontSize: 15
+    fontSize: 20
     invisibles: {}
     preferredLineLength: 1000
     showLineNumbers: false
-    tabLength: 4
   "exception-reporting":
     userId: "c2654d30-801b-82d6-df32-b77a6fd3f124"
   "git-history": {}
+  gofmt:
+    formatOnSave: false
+    formatTool: "gofmt"
   "highlight-selected": {}
   "japanese-wrap":
     characterWidth: {}
@@ -113,8 +120,7 @@
   linter:
     showErrorPanel: false
   "linter-jshint": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
   zentabs:
