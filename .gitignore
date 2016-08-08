@@ -7,3 +7,4 @@ dev
 blob-store
 .git-history
 packages
+.apmrc
