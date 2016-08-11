@@ -5,6 +5,10 @@
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
 
+'atom-text-editor':
+  'ctrl-shift-/': 'window:focus-pane-on-right'
+  'ctrl-shift-.': 'window:focus-pane-on-left'
+
 # Your keymap
 #
 # Atom keymaps work similarly to style sheets. Just as style sheets use
