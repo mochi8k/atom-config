@@ -5,10 +5,10 @@
 
 'atom-text-editor':
   'ctrl-alt-b': 'atom-beautify:beautify-editor'
-  'ctrl-alt-/': 'window:focus-pane-on-right'
+  'ctrl-shift-/': 'window:focus-pane-on-right'
 
 '.platform-win32 atom-text-editor':
-  'ctrl-alt-.': 'window:focus-pane-on-left'
+  'ctrl-shift-.': 'window:focus-pane-on-left'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-e': 'editor:move-to-end-of-screen-line'
