@@ -6,6 +6,8 @@
       _analyticsUserId: "034bd30d-83f9-4b9b-9107-c92720ab3e45"
     json:
       indent_size: 2
+  "autocomplete-go":
+    snippetMode: "nameAndType"
   "autocomplete-plus": {}
   "block-cursor":
     "custom-0":
@@ -102,7 +104,7 @@
   docblockr: {}
   editor:
     autoIndentOnPaste: false
-    fontSize: 20
+    fontSize: 21
     invisibles: {}
     preferredLineLength: 1000
     showLineNumbers: false
@@ -112,12 +114,14 @@
   gofmt:
     formatOnSave: false
     formatTool: "gofmt"
+  "gometalinter-linter": {}
   "highlight-selected": {}
   "japanese-wrap":
     characterWidth: {}
   "language-babel":
     transpileOnSave: false
   linter:
+    errorPanelHeight: 136
     showErrorPanel: false
   "linter-jshint": {}
   "tree-view": {}
