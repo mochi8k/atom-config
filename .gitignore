@@ -8,3 +8,4 @@ blob-store
 .git-history
 packages
 .apmrc
+.DS_Store
