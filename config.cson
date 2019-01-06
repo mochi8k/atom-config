@@ -96,18 +96,20 @@
     disabledPackages: [
       "linter-jshint"
       "gofmt"
+      "go-plus"
     ]
+    telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
       "monokai"
     ]
   docblockr: {}
   editor:
-    autoIndentOnPaste: false
-    fontSize: 21
+    atomicSoftTabs: false
+    fontSize: 22
     invisibles: {}
     preferredLineLength: 1000
-    showLineNumbers: false
+    softTabs: false
   "exception-reporting":
     userId: "c2654d30-801b-82d6-df32-b77a6fd3f124"
   "git-history": {}
@@ -120,10 +122,15 @@
     characterWidth: {}
   "language-babel":
     transpileOnSave: false
-  linter:
-    errorPanelHeight: 136
-    showErrorPanel: false
+  linter: {}
   "linter-jshint": {}
+  "linter-ui-default":
+    panelHeight: 300
+  "plantuml-preview":
+    dotLocation: "/usr/local/bin/dot"
+    jarLocation: "/usr/local/Cellar/plantuml/1.2018.14/libexec/plantuml.jar"
+  "toggle-gutter":
+    showGutters: false
   "tree-view": {}
   welcome:
     showOnStartup: false
